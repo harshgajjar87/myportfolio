@@ -1,14 +1,14 @@
 # TODO: Push Portfolio to GitHub and Deploy
 
-- [ ] Check Git status
-- [ ] Initialize Git if needed
-- [ ] Create .gitignore file
-- [ ] Add GitHub remote origin
-- [ ] Add all files to Git
-- [ ] Commit changes
-- [ ] Push to GitHub
-- [ ] Install Vercel CLI
-- [ ] Login to Vercel
-- [ ] Deploy to Vercel
+- [x] Check Git status
+- [x] Initialize Git if needed
+- [x] Create .gitignore file
+- [x] Add GitHub remote origin
+- [x] Add all files to Git
+- [x] Commit changes
+- [x] Push to GitHub
+- [x] Install Vercel CLI
+- [x] Login to Vercel
+- [x] Deploy to Vercel (in progress)
 - [ ] Set environment variables in Vercel
 - [ ] Test deployment
