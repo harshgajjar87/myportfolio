@@ -12,6 +12,7 @@
 - [x] Convert to serverless API routes
 - [x] Remove start script from package.json
 - [x] Create vercel.json for configuration
-- [ ] Deploy to Vercel
+- [x] Deploy to Vercel (in progress)
+- [x] Remove builds from vercel.json to use default settings
 - [ ] Set environment variables in Vercel
 - [ ] Test deployment
