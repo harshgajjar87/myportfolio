@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <script src="/script.js" defer></script>
 </head>
 <body>
 
@@ -165,7 +166,7 @@
   <!-- Contact Section -->
   <section id="contact">
     <h2 class="section-title">Contact Me</h2>
-    <form id="contact-form" action="/contact" method="post">
+    <form id="contact-form">
       <input type="text" name="name" placeholder="Full Name" required>
       <input type="email" name="email" placeholder="Email Address" required>
       <input type="text" name="phone" placeholder="Phone Number">
@@ -173,6 +174,7 @@
       <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
       <button type="submit" class="btn neon-btn">Send Message</button>
     </form>
+    <div id="response-message" style="margin-top: 20px; color: #00ff00; font-weight: bold;"></div>
   </section>
 
 </body>
