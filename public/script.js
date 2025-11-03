@@ -1,3 +1,20 @@
+// Hamburger menu toggle
+const hamburgerBtn = document.getElementById('hamburger');
+const navUl = document.querySelector('nav ul');
+
+hamburgerBtn.addEventListener('click', () => {
+  navUl.classList.toggle('show');
+});
+
+// Hide navbar on link click
+const navLinks = document.querySelectorAll('nav a');
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    navUl.classList.remove('show');
+  });
+});
+
+// Contact form submission
 document.getElementById('contact-form').addEventListener('submit', async function(event) {
   event.preventDefault(); // Prevent the default form submission
 

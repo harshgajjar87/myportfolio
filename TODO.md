@@ -1,18 +1,20 @@
-# TODO: Push Portfolio to GitHub and Deploy
+# TODO: Add Hamburger Menu for Navbar on Small Screens
 
-- [x] Check Git status
-- [x] Initialize Git if needed
-- [x] Create .gitignore file
-- [x] Add GitHub remote origin
-- [x] Add all files to Git
-- [x] Commit changes
-- [x] Push to GitHub
-- [x] Install Vercel CLI
-- [x] Login to Vercel
-- [x] Convert to serverless API routes
-- [x] Remove start script from package.json
-- [x] Create vercel.json for configuration
-- [x] Deploy to Vercel (completed)
-- [x] Remove builds from vercel.json to use default settings
-- [ ] Set environment variables in Vercel
-- [ ] Test deployment (site is protected by Vercel authentication)
+## Steps to Complete:
+1. **Update HTML (index.html)**: Add a hamburger button inside the nav element, positioned before the ul.
+2. **Update CSS (style.css)**:
+   - Add styles for the hamburger button (visible only on small screens).
+   - Hide the nav ul by default on small screens (max-width: 768px).
+   - Add transition for smooth toggle.
+3. **Update JavaScript (script.js)**:
+   - Add event listener for hamburger button to toggle the nav ul visibility.
+   - Add event listeners to nav links to hide the navbar after clicking and scroll to the section.
+4. **Test Responsiveness**: Use browser_action to launch the site and verify on small screen sizes (e.g., simulate mobile view).
+5. **Finalize**: Ensure the navbar hides after link click and works like a hamburger menu.
+
+## Progress:
+- [x] Step 1: Update HTML
+- [x] Step 2: Update CSS
+- [x] Step 3: Update JS
+- [x] Step 4: Test
+- [ ] Step 5: Finalize
