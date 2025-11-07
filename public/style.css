@@ -2,7 +2,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    background: #0a0a0a;
+    background: black;
     color: #fff;
     scroll-behavior: smooth;
   }
@@ -139,10 +139,11 @@ body {
   }
   .hexagon {
     margin-top: 14px;
-    width: 300px;
-    height: 360px;
+    width: 350px;
+    height: 450px;
     clip-path: polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%);
     object-fit: cover;
+    /* background-color: white; */
     /* box-shadow: 0 0 15px #0af; */
   }
   
