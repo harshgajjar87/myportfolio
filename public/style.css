@@ -290,9 +290,10 @@ body {
     border-radius: 8px;
   }
   
-  .project-card h4 {
+  .project-card h4, a {
     margin-top: 10px;
     color: #0af;
     font-size: 1.1rem;
+    text-decoration: none;
   }
   
